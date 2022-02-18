@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "forumamplifyapi",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/noerpaanakker/Desktop/Web Dev Projects/Fullstack Projects/forum-amplify/amplify/backend/api/forumamplifyapi/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-02-17T18:19:09.939Z",
+      "keyDescription": "Main Forum API Key"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authforumamplify2b909b96"
+      }
+    ]
+  }
+}
